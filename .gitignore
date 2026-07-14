@@ -1,0 +1,49 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+
+# --- IDE / OS ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# --- Environment ---
+.env
+.env.local
+
+# --- Large model files ---
+*.h5
+*.hdf5
+*.keras
+/models/
+
+# --- Qwik / Node ---
+QwikUI/node_modules/
+QwikUI/dist/
+QwikUI/.vite/
+QwikUI/stats/
+QwikUI/server/
+QwikUI/.env
+QwikUI/.env.local
+QwikUI/package-lock.json
+QwikUI/yarn.lock
+QwikUI/pnpm-lock.yaml
+
+# --- Backend ---
+backend/__pycache__/
+backend/**/__pycache__/
+backend/.env
+
+# --- Git itself ---
+.gitignore
+!.gitignore
